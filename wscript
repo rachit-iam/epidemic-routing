@@ -30,4 +30,5 @@ def build(bld):
     if bld.env['ENABLE_EXAMPLES']:
         bld.recurse('examples')
 
-    bld.ns3_python_bindings()
+    # Bindings not maintained for this module
+    #bld.ns3_python_bindings()
