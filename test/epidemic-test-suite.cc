@@ -187,7 +187,7 @@ public:
 };
 
 EpidemicTestSuite::EpidemicTestSuite ()
-  : TestSuite ("epidemic", UNIT)
+  : TestSuite ("epidemic-routing", UNIT)
 {
   AddTestCase (new EpidemicHeaderTestCase, TestCase::QUICK);
   AddTestCase (new EpidemicRqueueTest, TestCase::QUICK);
